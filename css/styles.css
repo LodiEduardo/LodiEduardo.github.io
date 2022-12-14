@@ -4,31 +4,20 @@
     box-sizing: border-box; 
 }
 
-body {
-    width:auto; 
-    height: 1080px;
-    background: linear-gradient(180deg,
-   rgb(197, 7, 64) 0%,
-   rgb(125, 161, 214) 50%,
-   rgb(54, 8, 116) 100%);
-    
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
 }
 
 .top-box {
-    margin: 90px;
-    /* border: white solid 2px; */
-    padding: 10px;
+    font-family: Pacifico;
+    font-size: 36px;
     text-align: center;
-    height: 600px;
-    box-sizing: border-box;
-    background-color:linear-gradient(180deg,
-    rgb(197, 7, 64) 0%,
-    rgb(125, 161, 214) 50%,
-    rgb(54, 8, 116) 100%);
-    color: aqua;
+    width: auto;
+    height: auto;
+    padding: 240px;
+    border: 2px solid blue;
+    /* margin: 2px solid purple; */
+
 }
 
-.box-image-main {
-    /* border: white solid 2px; */
-    margin: 100px;
-}
